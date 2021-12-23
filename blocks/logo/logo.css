@@ -1,0 +1,18 @@
+.logo {
+  text-decoration: none;
+  width: 176px;
+  height: 52px;
+  transition: transform .3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  transition: transform .3s ease-in-out;
+}
+
+@media (max-width: 784px) {
+  .logo {
+    width: 142px;
+    height: 42px;
+  }
+}

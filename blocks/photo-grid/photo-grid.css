@@ -1,0 +1,27 @@
+.photo-grid {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 92px 48px 0;
+  box-sizing: border-box;
+  transition: .5s ease-in-out;
+}
+
+@media (max-width: 1296px) {
+  .photo-grid {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .photo-grid {
+    width: 768px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 784px) {
+  .photo-grid {
+    width: 100%;
+    padding: 64px 16px 0;
+  }
+}

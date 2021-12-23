@@ -1,0 +1,7 @@
+.lang-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 18px;
+  list-style-type: none;
+}

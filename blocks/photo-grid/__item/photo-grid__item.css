@@ -1,0 +1,22 @@
+.photo-grid__item {
+  height: 213px;
+  overflow: hidden;
+}
+
+@media (max-width: 1296px) {
+  .photo-grid__item {
+    height: 225px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .photo-grid__item {
+    height: 264px;
+  }
+}
+
+@media (max-width: 784px) {
+  .photo-grid__item {
+    height: 250px;
+  }
+}

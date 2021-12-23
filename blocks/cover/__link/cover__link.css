@@ -1,0 +1,33 @@
+.cover__link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 740px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__link:hover .cover__overlay {
+  transition: opacity .5s ease-in-out;
+  opacity: 0.8;
+}
+
+@media (max-width: 1296px) {
+  .cover__link {
+    height: 640px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .cover__link {
+    height: 480px;
+  }
+}
+
+@media (max-width: 784px) {
+  .cover__link {
+    height: 200px;
+  }
+}

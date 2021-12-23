@@ -1,0 +1,17 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+}
+
+@media (max-width: 1040px) {
+  .header__nav {
+    padding: 28px 24px 0;
+  }
+}
+
+@media (max-width: 784px) {
+  .header__nav {
+    padding: 16px 16px 0;
+  }
+}

@@ -1,0 +1,29 @@
+.intro {
+  width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 92px 148px 0;
+  transition: .5s ease-in-out;
+}
+
+@media (max-width: 1296px) {
+  .intro {
+    width: 1024px;
+    padding: 92px 48px 0;
+  }
+}
+
+@media (max-width: 1040px) {
+  .intro {
+    width: 768px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 784px) {
+  .intro {
+    width: 100%;
+    min-width: 320px;
+    padding: 64px 16px 0;
+  }
+}

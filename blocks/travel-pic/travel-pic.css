@@ -1,0 +1,27 @@
+.travel-pic {
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  margin: 0 auto;
+  margin-top: 64px;
+  transition: .5s ease-in-out;
+}
+
+@media (max-width: 1296px) {
+  .travel-pic {
+    max-width: 928px;
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .travel-pic {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 784px) {
+  .travel-pic {
+    margin-top: 40px;
+  }
+}
