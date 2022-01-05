@@ -3,17 +3,18 @@
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #fff;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1024px) {
   .travel-pic__caption {
     padding-left: 24px;
   }
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
   .travel-pic__caption {
     padding-left: 16px;
   }

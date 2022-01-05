@@ -11,7 +11,7 @@
       <header class="header">
         <nav class="header__nav">
           <a class="logo" href="#">
-            <img src="images/__logo.svg" alt="логотип">
+            <img class="logo__img" src="images/__logo.svg" alt="логотип">
           </a>
           <ul class="lang-list">
             <li class="lang-list__item">
@@ -22,29 +22,18 @@
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">Путешествия по России</h1>
-        <p class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>                
-        <figure class="travel-pic">
-          <picture>
-            <source media="(min-width: 1280px)"
-                    srcset="images/travel-img__desctop_1280.jpg"
-            >
-            <source media="(min-width: 1024px)"
-                    srcset="images/travel-img__desctop_1024.jpg"
-            >
-            <source media="(min-width: 768px)"
-                    srcset="images/travel-img__tablet_768.jpg"
-            >
-            <img class="travel-pic__image"
-            src="images/travel-img__mobile_320.jpg"
-            alt="фото">
-          </picture>
-          <figcaption class="travel-pic__caption">
-            ваша полка — верхняя
-          </figcaption>
-        </figure>
       </header>
       <main class="content">
+        <section class="lead">
+          <h1 class="lead__title">Путешествия по России</h1>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>                
+          <figure class="travel-pic">
+            <img class="travel-pic__image" src="images/travel-img__desctop_1280.jpg" alt="фото окна и боковой полки плацкартно вагона">
+            <figcaption class="travel-pic__caption">
+              ваша полка — верхняя
+            </figcaption>
+          </figure>
+        </section>
         <article class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
@@ -87,7 +76,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-1__mobile_425.jpg"
-                alt="фото">
+                alt="фото морского пейзажа из окна поезда">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -97,7 +86,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-2__mobile_425.jpg"
-                alt="фото">
+                alt="фото заснеженных гор в облаках с большой высоты">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -107,7 +96,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-3__mobile_425.jpg"
-                alt="фото">
+                alt="фото собаки стоящей на рулоне сена на рассвете">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -117,7 +106,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-4__mobile_425.jpg"
-                alt="фото">
+                alt="фото хвойного леса в тумане с высоты птичьего полета">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -127,7 +116,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-5__mobile_425.jpg"
-                alt="фото">
+                alt="фото колеса автомобиля стоящего на прозрачном льде Байкала">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -137,7 +126,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-6__mobile_425.jpg"
-                alt="фото">
+                alt="фото морского пляжа с горами на горизонте">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -147,7 +136,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-7__mobile_425.jpg"
-                alt="фото">
+                alt="фото высоких заснеженных гор">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -157,7 +146,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-8__mobile_425.jpg"
-                alt="фото">
+                alt="фото дорожного знака, пешеходный переход, на фоне волнорезов">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -167,7 +156,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-9__mobile_425.jpg"
-                alt="фото">
+                alt="фото заснеженных холмов в тумане">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -177,7 +166,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-10__mobile_425.jpg"
-                alt="фото">
+                alt="фото равнины с горой на горизонте">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -187,7 +176,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-11__mobile_425.jpg"
-                alt="фото">
+                alt="фото гористого берега с пляжем и морем">
               </picture>
             </li>
             <li class="photo-grid__item">
@@ -197,7 +186,7 @@
                 >
                 <img class="photo-grid__image"
                 src="images/gallery-photo-12__mobile_425.jpg"
-                alt="фото">
+                alt="фото горных пик в тумане">
               </picture>
             </li>
           </ul>
@@ -214,7 +203,7 @@
                     >
                     <img class="place__image"
                     src="images/place__image-1_mobile_425.jpg"
-                    alt="фото">
+                    alt="фото отмели Балтийского моря усыпанного деревянными корягами">
                   </picture>
                   <figcaption>
                     <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, 
@@ -229,7 +218,7 @@
                       прохладного моря.</p>
                   </figcaption>
                 </figure>
-                <footer class="place__website">
+                <header class="place__website">
                   <h3 class="place__url-heading">url</h3>
                   <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                 </footer>
@@ -245,7 +234,7 @@
                     >
                     <img class="place__image"
                     src="images/place__image-2_mobile_425.jpg"
-                    alt="фото">
+                    alt="фото бушующего моря на фоне заснеженных гор">
                   </picture>
                   <figcaption>
                     <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. 
@@ -259,7 +248,7 @@
                       начинает сбываться с билетом в Мурманск.</p>
                   </figcaption>
                 </figure>
-                <footer class="place__website">
+                <header class="place__website">
                   <h3 class="place__url-heading">url</h3>
                   <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                 </footer>
@@ -275,7 +264,7 @@
                     >
                     <img class="place__image"
                     src="images/place__image-3_mobile_425.jpg"
-                    alt="фото">
+                    alt="фото рабочего места с видом на лес через панорамное окно">
                   </picture>
                   <figcaption>
                     <p class="place__paragraph">Алтай — одно из красивейших мест в России. 
@@ -288,7 +277,7 @@
                       а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                   </figcaption>
                 </figure>
-                <footer class="place__website">
+                <header class="place__website">
                   <h3 class="place__url-heading">url</h3>
                   <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
                 </footer>
@@ -304,7 +293,7 @@
                     >
                     <img class="place__image"
                     src="images/place__image-4_mobile_425.jpg"
-                    alt="фото">
+                    alt="фото трещин на льду озера Байкал">
                   </picture>
                   <figcaption>
                     <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
@@ -317,7 +306,7 @@
                       был поставлен мировой рекорд — 197.011 км/ч.</p>
                   </figcaption>
                 </figure>
-                <footer class="place__website">
+                <header class="place__website">
                   <h3 class="place__url-heading">url</h3>
                   <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                 </footer>
@@ -333,7 +322,7 @@
                     >
                     <img class="place__image"
                     src="images/place__image-5_mobile_425.jpg"
-                    alt="фото">
+                    alt="фото реки по берегам которой раскинулась непроходимая тайга">
                   </picture>
                   <figcaption>
                     <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: 
@@ -346,7 +335,7 @@
                       в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                   </figcaption>
                 </figure>
-                <footer class="place__website">
+                <header class="place__website">
                   <h3 class="place__url-heading">url</h3>
                   <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/ </a>
                 </footer>
@@ -359,15 +348,6 @@
             <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие 
               от столицы до Байкала на электричках.</p>
-            <div class="cover__overlay"></div>
-            <picture>
-              <source media="(min-width: 768px)"
-                      srcset="images/cover__background_desctop_1280.jpg"
-              >
-              <img class="cover__background"
-              src="images/cover__background_mobile_425.jpg"
-              alt="фото">
-            </picture>
           </a>
         </section>
       </main>

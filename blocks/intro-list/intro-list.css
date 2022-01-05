@@ -5,7 +5,7 @@
   list-style-type: none;
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
   .intro-list {
     padding-top: 34px;
   }

@@ -7,20 +7,20 @@
   transition: .5s ease-in-out;
 }
 
-@media (max-width: 1296px) {
+@media (max-width: 1280px) {
   .travel-pic {
     max-width: 928px;
     margin-top: 56px;
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1024px) {
   .travel-pic {
     max-width: 100%;
   }
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
   .travel-pic {
     margin-top: 40px;
   }

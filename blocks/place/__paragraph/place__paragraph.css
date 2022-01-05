@@ -6,15 +6,15 @@
   line-height: 29px;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1024px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 25px;
+    margin-bottom: 0;
   }
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
   .place__paragraph {
     padding: 0 16px;
   }

@@ -1,4 +1,4 @@
-.header__subtitle {
+.lead__subtitle {
   max-width: 640px;
   margin: 0 auto;
   padding-top: 32px;
@@ -8,8 +8,8 @@
   line-height: 36px;
 }
 
-@media (max-width: 784px) {
-  .header__subtitle {
+@media (max-width: 768px) {
+  .lead__subtitle {
     width: 100%;
     min-width: 288px;
     padding-top: 16px;

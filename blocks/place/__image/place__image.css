@@ -4,19 +4,19 @@
   object-fit: cover;
 }
 
-@media (max-width: 1279.9px) {
+@media (max-width: 1280px) {
   .place__image {
     height: 440px;
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1024px) {
   .place__image {
     height: 340px;
   }
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
   .place__image {
     height: 320px;
   }

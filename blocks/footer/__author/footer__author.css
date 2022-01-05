@@ -5,7 +5,7 @@
   line-height: 16px;
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
   .footer__author {
     margin-top: 48px;
     line-height: 14px;
