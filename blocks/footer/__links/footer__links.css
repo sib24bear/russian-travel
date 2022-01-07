@@ -7,7 +7,7 @@
   list-style-type: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .footer__links {
     grid-template-columns: auto;
     grid-template-rows: repeat(5, max-content);

@@ -8,9 +8,8 @@
   line-height: 26px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .intro__text {
-    min-width: 288px;
     font-size: 16px;
     line-height: 26px;
   }

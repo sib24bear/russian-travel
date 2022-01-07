@@ -5,20 +5,20 @@
   transition: .5s ease-in-out;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279.9px) {
   .places {
     max-width: 1024px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023.9px) {
   .places {
     max-width: 768px;
     padding-top: 88px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .places {
     width: 100%;
     min-width: 288px;

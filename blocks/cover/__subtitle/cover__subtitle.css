@@ -9,7 +9,7 @@
   z-index: 4;
 }
 
-@media (max-width: 784px) {
+@media (max-width: 767.9px) {
   .cover__subtitle {
     max-width: 300px;
     font-size: 14px;

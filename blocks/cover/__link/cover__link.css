@@ -31,19 +31,19 @@
   opacity: .8;
 }
 
-@media (max-width: 1296px) {
+@media (max-width: 1279.9px) {
   .cover__link {
     min-height: 640px;
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1023.9px) {
   .cover__link {
     min-height: 480px;
   }
 }
 
-@media (max-width: 784px) {
+@media (max-width: 767.9px) {
   .cover__link {
     min-height: 200px;
   }

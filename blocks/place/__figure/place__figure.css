@@ -7,19 +7,19 @@
   grid-gap: 40px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279.9px) {
   .place__figure {
     grid-gap: 32px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023.9px) {
   .place__figure {
     grid-gap: 28px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .place__figure {
     grid-column: 1;
     grid-row: 3;
