@@ -12,7 +12,7 @@
   transition: text-shadow .3s ease-in-out;
 }
 
-@media (max-width: 784px) {
+@media (max-width: 767.9px) {
   .lang-list__link {
     font-size: 18px;
     line-height: 20px;
